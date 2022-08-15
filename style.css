@@ -1,0 +1,57 @@
+*{padding: 0; margin: 0; }
+
+body{
+    background-color: rgb(15, 8, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#carta{
+    margin-top: 10em;
+    height: 45em;
+    width: 17em;
+    border:goldenrod 7px ridge;
+    border-radius: 5px;
+}
+
+#botao{
+    border: 5px ridge goldenrod;
+    border-radius: 5px;
+    background: black;
+    color: goldenrod;
+    height: 5em;
+    width: 12em;
+    font: 1.5em verdana;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+
+#botao:hover{
+    border: 5px ridge gold;
+    color: gold
+}
+
+#texto{
+    color: white;
+    text-align: center;
+    font: 4em, verdana;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#final{
+    text-align: center;
+    font: 1em monospace;
+    margin-bottom: 3em;
+    color:white;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+#final:hover{
+    color:goldenrod;
+}
