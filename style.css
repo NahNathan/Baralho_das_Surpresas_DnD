@@ -7,7 +7,7 @@ body{
     justify-content: center;
     gap: 5%;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
 }
 
 #carta{
@@ -27,18 +27,20 @@ body{
     width: 12em;
     font: 1.5em verdana;
     cursor:pointer;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 
 #botao:hover{
     border: 5px ridge gold;
-    color: gold
+    color: gold;
+    box-shadow: 1px 1px 20px goldenrod;
+
 }
 
 #texto{
     color: white;
     text-align: center;
-    font: 4em, verdana;
+    font: 1em verdana;
     margin-right: 40px;
     margin-left: 40px;
 }

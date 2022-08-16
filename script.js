@@ -96,6 +96,6 @@ function random(){
         final.firstChild.nodeValue="🤡 Feito por Nathan RDS 🤡"
         break;
     }
-} //jeito ineficiente de fazer isso? talvez, mas fazer oq ne
+} 
 
 btn.addEventListener("click",random)
