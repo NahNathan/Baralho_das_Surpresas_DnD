@@ -7,13 +7,13 @@ body{
     justify-content: center;
     gap: 5%;
     flex-direction: column;
-    height: 120vh;
+    height: 110vh;
 }
 
 #carta{
     margin-top: 10em;
-    height: 45em;
-    width: 17em;
+    height: 40em;
+    width: 20em;
     border:goldenrod 7px ridge;
     border-radius: 5px;
 }
@@ -23,7 +23,7 @@ body{
     border-radius: 5px;
     background: black;
     color: goldenrod;
-    height: 5em;
+    height: 6em;
     width: 12em;
     font: 1.5em verdana;
     cursor:pointer;
